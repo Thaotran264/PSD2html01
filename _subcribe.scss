@@ -1,0 +1,50 @@
+.subcribe {
+  margin-bottom: 15rem;
+  &__inner {
+    display: flex;
+    border-bottom: 4px solid;
+    justify-content: space-between;
+  }
+  &__text {
+    width: 40%;
+    & h3 {
+      font-size: 2rem;
+      max-width: 300px;
+      font-weight: 500;
+    }
+  }
+  &__form {
+    width: 60%;
+    &-email {
+      background-color: #dbdbdb;
+      display: flex;
+      align-items: center;
+
+      & input {
+      background-color: #dbdbdb;
+      padding: 2rem 2.5rem;
+        border: 0;
+        width: auto;
+        outline: none;
+        font-size: 1.6rem;
+        color: #000;
+      }
+      & .btn {
+          margin-left: auto;
+      }
+    }
+    &-list {
+      margin-top: 4rem;
+      margin-bottom: 8rem;
+      display: flex;
+      & li {
+        list-style-type: none;
+        display: block;
+        margin-left: 4rem;
+        & ion-icon {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}

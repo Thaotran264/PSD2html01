@@ -1,0 +1,21 @@
+.footer {
+    &__inner {
+        padding-bottom: 15rem;
+        border-bottom: 1px solid;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: calc(25% - 10.5rem);
+        &-list {
+            & li {
+                list-style-type: none;
+                display: block;
+                font-size: 1.6rem;
+                color: hsl(224, 73%, 37%);
+                margin-bottom: 3rem;
+                font-weight: 600;
+            }
+        }
+    }
+}

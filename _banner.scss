@@ -1,0 +1,24 @@
+.banner {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    &__heading {
+        font-size: 6rem;
+        font-weight: bold;
+            margin-bottom: 2rem;
+    }
+    &__desc {
+        font-weight: 300;
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+        color: $text-color;
+        opacity: 0.65;
+    }
+    &__button {
+        & a:first-child {
+            margin-right: 2.5rem;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.logo {
+  font-size: 2.8rem;
+  color: $text-color;
+  font-weight: bold;
+
+  &-text {
+    color: $primary-color;
+  }
+}
+.header {
+  padding-top: 4rem;
+  &__inner {
+    @include flexc(space-between, center);
+  }
+
+  &__menu {
+    &-list {
+      @include flexc(center, center);
+      list-style: none;
+      font-size: 1.6rem;
+    }
+    &-item {
+      margin-left: 50px;
+      &:last-child {
+        margin-left: 70px;
+      }
+    }
+    &-link {
+      color: $text-color;
+      transition: color 0.25s ease;
+      &:hover {
+          color: $primary-color;
+      }
+    }
+    &-login {
+      display: block;
+      
+      border: 1px solid;
+      padding: 10px 24px;
+      border-radius: 25px;
+      color: $text-color;
+    }
+  }
+}

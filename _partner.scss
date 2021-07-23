@@ -1,0 +1,27 @@
+.partner {
+  &__title {
+    font-size: 4rem;
+    max-width: 83rem;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid;
+    padding-bottom: 7rem;
+  }
+  &__list {
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 20rem;
+    width: 83rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    &-item {
+      list-style: none;
+      width: calc(25% - 3rem);
+    }
+    &-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
